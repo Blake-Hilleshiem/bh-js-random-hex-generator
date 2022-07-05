@@ -1,0 +1,9 @@
+#1) Following the provided mockup, use HTML, Css, and vanilla JS to create a project that generates a random background color when a button is clicked.
+
+must contain the elements in the mock design and reflect said design
+
+- title (nav) bar
+- randomly generated hexadecimal color value
+- the background color of the content should reflec the random color
+- current hexadecimal value must be shown in plain text
+- at least 1 transition / psuedo effect (hover effect smooth slow it down)
