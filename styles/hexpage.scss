@@ -21,6 +21,8 @@ body {
     background-color: orange;
     display: flex;
     justify-content: center;
+    transition: 0.5s;
+
     .center-content-container {
       width: 800px;
       display: flex;
@@ -39,9 +41,6 @@ body {
         justify-content: center;
         align-items: center;
 
-        .display-text {
-        }
-
         .color-hex {
           color: rgb(39, 199, 239);
         }
@@ -56,6 +55,7 @@ body {
           border-radius: 5px;
           font-size: x-small;
           font-weight: bold;
+          transition: 0.3s;
 
           -webkit-box-shadow: 6px 8px 26px -5px rgba(0, 0, 0, 0.68);
           box-shadow: 6px 8px 26px -5px rgba(0, 0, 0, 0.68);

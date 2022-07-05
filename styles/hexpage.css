@@ -17,20 +17,22 @@ body .header-container .header-text-wrapper {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 180px;
 }
 
 body .content-container {
   height: 100vh;
-  background-color: #ff8300;
+  background-color: orange;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 body .content-container .center-content-container {
@@ -40,11 +42,11 @@ body .content-container .center-content-container {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .content-container .center-content-container .content-spacer {
@@ -61,18 +63,14 @@ body .content-container .center-content-container .display-color-container {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body
-  .content-container
-  .center-content-container
-  .display-color-container
-  .color-hex {
+body .content-container .center-content-container .display-color-container .color-hex {
   color: #27c7ef;
 }
 
@@ -88,15 +86,13 @@ body .content-container .center-content-container .button-wrapper .click-me {
   border-radius: 5px;
   font-size: x-small;
   font-weight: bold;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   -webkit-box-shadow: 6px 8px 26px -5px rgba(0, 0, 0, 0.68);
   box-shadow: 6px 8px 26px -5px rgba(0, 0, 0, 0.68);
 }
 
-body
-  .content-container
-  .center-content-container
-  .button-wrapper
-  .click-me:hover {
+body .content-container .center-content-container .button-wrapper .click-me:hover {
   color: white;
 }
 /*# sourceMappingURL=hexpage.css.map */
